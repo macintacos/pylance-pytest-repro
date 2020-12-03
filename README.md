@@ -12,5 +12,5 @@ $ python src/app.py
 Here's some data returned: ['some data']
 
 $ pytest -k tests test_pylance.py -v
-# test output...
+# test output... (check out the test, we're actually returning the fixture)
 ```
