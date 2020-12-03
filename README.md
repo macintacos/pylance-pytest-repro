@@ -16,3 +16,5 @@ Here's some data returned: ['some data']
 $ pytest -k tests test_pylance.py -v
 # test output... (check out the test, we're actually returning the fixture)
 ```
+
+This was made to reproduce the issue that was filed here: https://github.com/microsoft/pylance-release/issues/684
